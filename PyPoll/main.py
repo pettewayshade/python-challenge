@@ -16,10 +16,10 @@ with open('election_data.csv', 'r') as csvfile:
     #total number of votes
     totalVotes = len(list(voterID))
     
-    print("Election Results \n -------------------")
-    print("Election Results \n -------------------", file=open('PyPoll.txt', 'a'))
-    print("Total Votes: " + str(totalVotes) + "\n -------------------")
-    print("Total Votes: " + str(totalVotes) + "\n -------------------",file=open('PyPoll.txt', 'a'))
+    print("Election Results \n-------------------")
+    print("Election Results \n-------------------", file=open('PyPoll.txt', 'a'))
+    print("Total Votes: " + str(totalVotes) + "\n-------------------")
+    print("Total Votes: " + str(totalVotes) + "\n-------------------",file=open('PyPoll.txt', 'a'))
  
     #unique candidates
     uniqCandidates = list(set(candidate))
